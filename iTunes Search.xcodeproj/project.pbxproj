@@ -10,6 +10,8 @@
 		0EAADE222354DA84002A00B9 /* iTunesSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADE212354DA84002A00B9 /* iTunesSearchTests.swift */; };
 		0EAADE2A2354DDB1002A00B9 /* NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADE292354DDB1002A00B9 /* NetworkDataLoader.swift */; };
 		0EAADE2D2354DE74002A00B9 /* URLSession+NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADE2C2354DE74002A00B9 /* URLSession+NetworkDataLoader.swift */; };
+		0EAADE2F2354E36D002A00B9 /* GoodResultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADE2E2354E36D002A00B9 /* GoodResultsData.swift */; };
+		0EAADE312354E41A002A00B9 /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADE302354E41A002A00B9 /* MockDataLoader.swift */; };
 		46BF022B2117D59500A24DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF022A2117D59500A24DE5 /* AppDelegate.swift */; };
 		46BF02302117D59500A24DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF022E2117D59500A24DE5 /* Main.storyboard */; };
 		46BF02322117D59700A24DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BF02312117D59700A24DE5 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 		0EAADE232354DA84002A00B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EAADE292354DDB1002A00B9 /* NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataLoader.swift; sourceTree = "<group>"; };
 		0EAADE2C2354DE74002A00B9 /* URLSession+NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+NetworkDataLoader.swift"; sourceTree = "<group>"; };
+		0EAADE2E2354E36D002A00B9 /* GoodResultsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodResultsData.swift; sourceTree = "<group>"; };
+		0EAADE302354E41A002A00B9 /* MockDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataLoader.swift; sourceTree = "<group>"; };
 		46BF02272117D59500A24DE5 /* iTunes Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BF022A2117D59500A24DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46BF022F2117D59500A24DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			children = (
 				0EAADE212354DA84002A00B9 /* iTunesSearchTests.swift */,
 				0EAADE232354DA84002A00B9 /* Info.plist */,
+				0EAADE2E2354E36D002A00B9 /* GoodResultsData.swift */,
+				0EAADE302354E41A002A00B9 /* MockDataLoader.swift */,
 			);
 			path = iTunesSearchTests;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAADE222354DA84002A00B9 /* iTunesSearchTests.swift in Sources */,
+				0EAADE2F2354E36D002A00B9 /* GoodResultsData.swift in Sources */,
+				0EAADE312354E41A002A00B9 /* MockDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
